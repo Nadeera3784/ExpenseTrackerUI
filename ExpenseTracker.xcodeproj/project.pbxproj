@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6160E119295F403E00896F7E /* PrettyAxis in Frameworks */ = {isa = PBXBuildFile; productRef = 6160E118295F403E00896F7E /* PrettyAxis */; };
+		6160E12B295F47B500896F7E /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 6160E125295F47B500896F7E /* Preview Content */; };
 		616954482947E83D00438A6B /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954472947E83D00438A6B /* ExpenseTrackerApp.swift */; };
 		6169544A2947E83D00438A6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954492947E83D00438A6B /* ContentView.swift */; };
 		6169544C2947E83F00438A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6169544B2947E83F00438A6B /* Assets.xcassets */; };
 		6169544F2947E83F00438A6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6169544E2947E83F00438A6B /* Preview Assets.xcassets */; };
+		616954562947ED2500438A6B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954552947ED2500438A6B /* Home.swift */; };
+		616954582947ED5D00438A6B /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954572947ED5D00438A6B /* TransactionCardView.swift */; };
+		6169545A2947ED8800438A6B /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954592947ED8800438A6B /* Expense.swift */; };
+		6169545C2947EDB700438A6B /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169545B2947EDB700438A6B /* ExpenseViewModel.swift */; };
+		6169545E2947EDEB00438A6B /* FilteredDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169545D2947EDEB00438A6B /* FilteredDetailView.swift */; };
+		616954602947EE2600438A6B /* ExpenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169545F2947EE2600438A6B /* ExpenseCard.swift */; };
+		616954622947EE6100438A6B /* NewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616954612947EE6100438A6B /* NewExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6160E125295F47B500896F7E /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		616954442947E83D00438A6B /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616954472947E83D00438A6B /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		616954492947E83D00438A6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6169544B2947E83F00438A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6169544E2947E83F00438A6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		616954552947ED2500438A6B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		616954572947ED5D00438A6B /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		616954592947ED8800438A6B /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		6169545B2947EDB700438A6B /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		6169545D2947EDEB00438A6B /* FilteredDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredDetailView.swift; sourceTree = "<group>"; };
+		6169545F2947EE2600438A6B /* ExpenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCard.swift; sourceTree = "<group>"; };
+		616954612947EE6100438A6B /* NewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6160E119295F403E00896F7E /* PrettyAxis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +69,16 @@
 		616954462947E83D00438A6B /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				6169545B2947EDB700438A6B /* ExpenseViewModel.swift */,
+				616954592947ED8800438A6B /* Expense.swift */,
+				6160E125295F47B500896F7E /* Preview Content */,
+				6169545D2947EDEB00438A6B /* FilteredDetailView.swift */,
+				6169545F2947EE2600438A6B /* ExpenseCard.swift */,
+				616954612947EE6100438A6B /* NewExpense.swift */,
 				616954472947E83D00438A6B /* ExpenseTrackerApp.swift */,
+				616954572947ED5D00438A6B /* TransactionCardView.swift */,
 				616954492947E83D00438A6B /* ContentView.swift */,
+				616954552947ED2500438A6B /* Home.swift */,
 				6169544B2947E83F00438A6B /* Assets.xcassets */,
 				6169544D2947E83F00438A6B /* Preview Content */,
 			);
@@ -83,6 +109,9 @@
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				6160E118295F403E00896F7E /* PrettyAxis */,
+			);
 			productName = ExpenseTracker;
 			productReference = 616954442947E83D00438A6B /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,9 @@
 				Base,
 			);
 			mainGroup = 6169543B2947E83D00438A6B;
+			packageReferences = (
+				6160E117295F403E00896F7E /* XCRemoteSwiftPackageReference "PrettyAxis" */,
+			);
 			productRefGroup = 616954452947E83D00438A6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6169544F2947E83F00438A6B /* Preview Assets.xcassets in Resources */,
+				6160E12B295F47B500896F7E /* Preview Content in Resources */,
 				6169544C2947E83F00438A6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +171,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6169544A2947E83D00438A6B /* ContentView.swift in Sources */,
+				6169545E2947EDEB00438A6B /* FilteredDetailView.swift in Sources */,
+				6169545C2947EDB700438A6B /* ExpenseViewModel.swift in Sources */,
+				616954622947EE6100438A6B /* NewExpense.swift in Sources */,
+				616954562947ED2500438A6B /* Home.swift in Sources */,
 				616954482947E83D00438A6B /* ExpenseTrackerApp.swift in Sources */,
+				616954582947ED5D00438A6B /* TransactionCardView.swift in Sources */,
+				616954602947EE2600438A6B /* ExpenseCard.swift in Sources */,
+				6169545A2947ED8800438A6B /* Expense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6160E117295F403E00896F7E /* XCRemoteSwiftPackageReference "PrettyAxis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RiuHDuo/PrettyAxis.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6160E118295F403E00896F7E /* PrettyAxis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6160E117295F403E00896F7E /* XCRemoteSwiftPackageReference "PrettyAxis" */;
+			productName = PrettyAxis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6169543C2947E83D00438A6B /* Project object */;
 }
