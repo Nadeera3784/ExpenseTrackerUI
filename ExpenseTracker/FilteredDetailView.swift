@@ -112,6 +112,7 @@ struct FilteredDetailView: View {
     func ChartView() -> some View {
         
     }
+    
 
 }
 struct FilteredDetailView_Previews: PreviewProvider {
